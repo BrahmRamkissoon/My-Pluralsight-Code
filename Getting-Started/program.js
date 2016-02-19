@@ -1,5 +1,4 @@
-/* Calculate the average cost per person when 
-ordering a pizza */
+/* Calculate the cost per person for a pizza */ 
 
 var totalCost = 14.99;
 
