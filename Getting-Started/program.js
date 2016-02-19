@@ -1,8 +1,11 @@
-var lunch = "pizza";
-console.log(lunch);
-console.log(lunch);
-console.log(4);
+/* Calculate the average cost per person when 
+ordering a pizza */
 
-var name = "Scott";
-name = "Allen";
-console.log(name);
+var totalCost = 14.99;
+
+var sizeOfParty = process.argv[2];
+
+
+var averageCost = totalCost / sizeOfParty;
+
+console.log("$" + averageCost);
