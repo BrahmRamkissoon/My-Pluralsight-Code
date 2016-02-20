@@ -1,5 +1,5 @@
 /*
-* Simulate a roll of the dice
+Output comments about the die rolls
 */
 
 var getDieRoll = function (dieSize) {
