@@ -1,16 +1,9 @@
 var book = require("./lib/grades").book;
 
-book.addGrade(90);
-book.addGrade(85);
-book.addGrade(72);
+// use express
+var express = require("express");
+var app = express();
 
-console.log(book.getAverage());
-
-book.reset();
-
-// Scott's modified solution  
-for (var i=0; i < process.argv.length; i++){
-    book.addGrade(parseInt(process.argv[i]));
-}
-
-console.log(book.getAverage());
+// have app listen on port 3000
+app.listen(3000);
+console.log("server ready...");
