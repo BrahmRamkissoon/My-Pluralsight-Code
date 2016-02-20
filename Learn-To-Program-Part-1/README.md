@@ -1,6 +1,5 @@
 # Pluralsight: Learning To Program - Part 1: Getting Started
-[Course Link](https://www.pluralsight.com/courses/learning-programming-javascript)
-Author: Scott Allen
+[Course Info](https://www.pluralsight.com/courses/learning-programming-javascript) | Author: [Scott Allen](https://www.pluralsight.com/authors/scott-allen)
 
 ## Description
 This first course in Learning To Program will get you started with the fundamentals of programming, like looping and working with source code files.
