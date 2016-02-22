@@ -1,0 +1,8 @@
+# Pluralsight: Learning To Program - Part 2: Abstractions
+[Course Info](https://app.pluralsight.com/library/courses/learning-programming-abstractions-python) | Author: [Scott Allen](https://www.pluralsight.com/authors/scott-allen)
+
+## Description
+Learning To Program 2 will introduce you to the fun and friendly Python programming language. In this course we'll focus on using and creating abstractions by trying different Python data structures, like the list, set, dictionary, and tuple. We'll also spend time looking at the fundamental concepts of object oriented programming, and how to apply those concepts when building a program.
+
+### In the course:
+We'll be looking at building and using abstractions. One of the keys to building software is managing the complexity of software, because some software becomes enormously complex. Once you get past 20 or 30 lines of code, it becomes difficult to keep everything that is happening in the code, inside your head. So, to manage the complexity, we build abstractions. We break large pieces of code into small pieces of code and large applications into small parts, and then these small parts and pieces hide the complex details and generalize what's happening behind the scenes. That allows our brains to keep track of what's happening. And we can build bigger pieces of software by combining the small pieces together. Programming is a lot like building something with Lego bricks. And in this course, I want to show you how to think about and build and use those Lego bricks.
