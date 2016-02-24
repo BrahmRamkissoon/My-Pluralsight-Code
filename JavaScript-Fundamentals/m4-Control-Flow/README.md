@@ -4,15 +4,8 @@
 ## Course Description
 This course introduces JavaScript by examining each aspect of the language in detail. Learn how to get the most from the language of the web. 
 
-### Module 2 - Building Blocks of JavaScript Programs:
-This module introduces the tools that you will use to construct your programs. We will discuss:
-
-* Comments
-* Variables
-* Syntax
-* Where to get help
-* JavaScript Objects
-* Equality and things to be aware of
+### Module 4 - Control Flow:
+This module is about Control Flow in JavaScript. We've talked about objects, we've talked about functions, but to be able to create a program that does something truly useful we need a way to control the flow of execution through our program. That includes being able to branch based on conditions, being able to iterate or repeat certain actions within our program, and having a strategy to handle errors when things go wrong.
 
 #### Note
 I have opted to construct a simple site to showcase examples from the module sections instead of using JSBin.
