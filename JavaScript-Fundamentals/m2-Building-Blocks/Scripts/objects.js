@@ -1,34 +1,51 @@
-// Variable Declarations
-var streetNumber = 49;
-var streetName = "Brunswick";
-
-// Example 1
-function example1(message){
-  document.getElementById('example_1').innerHTML += message + '<br/>';
+// Objects Demo
+function write(message) {
+  document.getElementById('message').innerHTML += message + '<br/><br/>';
 }
 
-example1(typeof streetNumber + " " + streetNumber);
-example1(typeof streetName + " " + streetName);
+// empty object
+var empty = {};
+write(empty.toString());
+
+// new object constructor
+var tim = new Object();
+tim.name = "Tim Bob";
+write(tim.name);
+
+// object literal
+var john = {
+    name: "John Blaine",
+    age: 21
+};
+
+write(john.name);
+write(john.age);
+write(john.toString());
+
+// toString()
+write([1, 2, 3].toString());
+write(/\d/.toString());
+write(false.toString());
+write(write.toString());
+
+// Modified toString for john
+john.toString = function(){
+    return "Name: " + this.name + ", Age: " + this.age;
+};
+
+write(john.toString());
+
+//nested objects - use semi colons
+var person = {
+    address: {
+        number: 1,
+        street: "brunswick"
+    }
+};
 
 
-// Example 2
-function example2(message){
-  document.getElementById('example_2').innerHTML += message + '<br/>';
-}
 
-function add(first, second){
-    // a = first;   // this is defined globally
-    var a = first;  // this is defined locally
-    return a + second;
-}
 
-example2("1 + 2 = " + add(1,2));
-//example2("a: " + a);
-example2("54 + 18 = " + add(54,12));
-//example2("a: " + a);
 
-// global check for variable
-if(!window.a){
-    example2("a is undefined");2
-}
+
 
