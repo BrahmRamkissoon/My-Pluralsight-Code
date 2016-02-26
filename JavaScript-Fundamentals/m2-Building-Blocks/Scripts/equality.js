@@ -3,32 +3,32 @@ var streetNumber = 49;
 var streetName = "Brunswick";
 
 // Example 1
-function example1(message){
-  document.getElementById('example_1').innerHTML += message + '<br/>';
+function write(message){
+  document.getElementById('message').innerHTML += message + '<br/>';
 }
 
-example1(typeof streetNumber + " " + streetNumber);
-example1(typeof streetName + " " + streetName);
+write("comparing simple types");
+write("cat" == "cat");
+write(42 == 40 + 2);
+write("");
 
+write("with type coercion");
+write("42" == 40 + 2);
+write(null == undefined);
+write(false == 0);
+write(' \t ' == 0);
+write("");
 
-// Example 2
-function example2(message){
-  document.getElementById('example_2').innerHTML += message + '<br/>';
-}
+write("without type coercion");
+write(42 === 40 + 2);
+write("42" === 40 + 2);
+write(null === undefined);
+write(false === 0);
+write(' \t ' === 0);
+write("");
 
-function add(first, second){
-    // a = first;   // this is defined globally
-    var a = first;  // this is defined locally
-    return a + second;
-}
-
-example2("1 + 2 = " + add(1,2));
-//example2("a: " + a);
-example2("54 + 18 = " + add(54,12));
-//example2("a: " + a);
-
-// global check for variable
-if(!window.a){
-    example2("a is undefined");2
-}
-
+write("comparing objects");
+write({ prop: 0 } === { prop: 0 });  // identical objects are not equal
+var first = { prop: 0 }; 
+var second = first;
+write(first === second);
