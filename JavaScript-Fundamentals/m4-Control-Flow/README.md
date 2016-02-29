@@ -8,7 +8,13 @@ This course introduces JavaScript by examining each aspect of the language in de
 This module is about Control Flow in JavaScript. We've talked about objects, we've talked about functions, but to be able to create a program that does something truly useful we need a way to control the flow of execution through our program. That includes being able to branch based on conditions, being able to iterate or repeat certain actions within our program, and having a strategy to handle errors when things go wrong.
 
 #### Note
-I have opted to construct a simple site to showcase examples from the module sections instead of using JSBin.
-- Brahm
+I have opted to skip code examples of this module since I'm familiar with 
+
+* if-else controls
+* for , for -in, do-while loops
+* switch statements
+* try-catch blocks
+
+-Brahm
 
 
