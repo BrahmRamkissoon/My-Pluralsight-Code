@@ -13,3 +13,7 @@ This module will look at the different reasons why you might want to test your J
 * intro Behavior Driven Development
 * BDD with Jasmine
 * integrate our JavaScript testing into the build process.
+
+#### Note
+I have skipped the sections regarding BDD, Jasmine and integration.
+The amount of material covered here is a simple introduction; there are better sources to be found.
