@@ -12,8 +12,8 @@
            <!-- Header Section -->
             <nav>
                 <ul>
-                    <li class="active"><a href="testing-qunit.html">QUnit Tests</a></li>
-                    <li ><a href="testing-dom-interaction.html">DOM Tests</a></li>               
+                    <li ><a href="testing-qunit.html">QUnit Tests</a></li> 
+                    <li class="active"><a href="testing-dom-interaction.html">DOM Interaction Test</a></li>              
                     
                 </ul>
             </nav>  
@@ -23,7 +23,16 @@
                <article class="article">
                 
                 
-                <h2>QUnit Demo</h2>
+                <h2>Testing DOM Interaction</h2>
+                
+                <div id="test_area">
+                    <input type="text" id="phrase">
+                    <input type="button" value="paste">
+                    
+                    <div id="target"/>
+                </div>
+                
+                
                 <div id="qunit"></div>
                 <div id="qunit-fixture"></div>
                 
@@ -38,8 +47,10 @@
         </div>
         
         <!-- JavaScript Section -->
-        <script src="Scripts/lib/qunit-1.22.0.js"></script> 
-        <script src="Scripts/tests.js."></script> 
+        <script src="Scripts/lib/jquery-2.2.1.js"></script> 
+        <script src="Scripts/lib/qunit-1.22.0.js"></script>         
+        <script src="Scripts/phrasePaste.js"></script>  
+        <script src="Scripts/dom-tests.js"></script>
 
     </body>
 </html>
