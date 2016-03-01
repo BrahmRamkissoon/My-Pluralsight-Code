@@ -1,4 +1,4 @@
-# Pluralsight: JavaScript Fundamentals
+# Pluralsight: JavaScript Design Patterns
 [Course Info](https://www.pluralsight.com/courses/javascript-design-patterns) | Author: [Aaron Powell](https://www.pluralsight.com/authors/aaron-powell)
 
 ## Course Description
