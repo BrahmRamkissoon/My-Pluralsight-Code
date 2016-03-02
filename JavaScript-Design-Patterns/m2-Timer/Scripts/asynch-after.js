@@ -13,7 +13,11 @@ $(document).ready(function() {
             var result;
             // +new Date returns the number of milliseconds   
             //((+new Date) - start < 50 => buffer of 50 milliseconds            
-            for (var start = +new Date; i < len && result !== false && ((+new Date) - start < 50); i++) {
+            for (var start = +new Date; 
+                                        i < len && 
+                                        result !== false && 
+                                        ((+new Date) - start < 50); 
+                                                                    i++) {
                 result = iterFunction.call(items[i], items[i], i);
             }
 
@@ -21,7 +25,7 @@ $(document).ready(function() {
             if (i < len && result !== false) {
                 setTimeout(arguments.callee, 20);
             } else {
-                callback();
+                callback(items);
             }
 
             }, 20);
