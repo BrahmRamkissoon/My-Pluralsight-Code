@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prototype Pattern</title>
+    
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="Content/Calc-prototype.css" type="text/css">
+
+    
+</head>
+<body>
+  
+   <!--HEADER SECTION -->
+    <header class="masthead">
+        <nav class="nav">            
+            <ul id="nav-bar" class="nav-bar">
+                <li ><a href="Prototype.html">Prototype Demo</a></li>
+                <li class="active"><a href="Calc-prototype.html">Calculator Prototype Demo</a></li>                
+            </ul>
+        </nav>
+    </header>
+    
+    <!--Main Section -->
+  <div>
+        <h2>Using the Prototype Pattern to create a calculator</h2>
+        <!-- Note: I prefer to wire up event handlers via code in "real life" apps
+            but in this case I decided to do it in HTML just to allow the focus to stay
+            on patterns. -->
+        <div class="Calculator">
+            <div class="CalculatorHead">
+                <div id="eq" class="Equation"></div>
+                <div id="currNumber" class="CurrentNumber">0</div>
+            </div>
+            <div>
+                <div class="Button" onclick="calc.numberClick(event);">7</div>
+                <div class="Button" onclick="calc.numberClick(event);">8</div>
+                <div class="Button" onclick="calc.numberClick(event);">9</div>   
+                <div class="Button" onclick="calc.setOperator('/');">/</div>        
+                <div class="Button rowspan2" onclick="calc.clearNumbers();">C</div>
+            </div>
+            <div>
+                <div class="Button" onclick="calc.numberClick(event);">4</div>
+                <div class="Button" onclick="calc.numberClick(event);">5</div>
+                <div class="Button" onclick="calc.numberClick(event);">6</div> 
+                <div class="Button" onclick="calc.setOperator('*');">*</div>           
+            </div>
+            <div>
+                <div class="Button" onclick="calc.numberClick(event);">1</div>
+                <div class="Button" onclick="calc.numberClick(event);">2</div>
+                <div class="Button" onclick="calc.numberClick(event);">3</div>
+                <div class="Button" onclick="calc.setOperator('-')">-</div>            
+                <div class="Button rowspan2" onclick="calc.setOperator('=');">=</div>
+            </div>
+            <div>
+                <div class="Button colspan2" onclick="calc.numberClick(event);">0</div>
+                <div class="Button" onclick="calc.numberClick();">.</div>
+                <div class="Button" onclick="calc.setOperator('+');">+</div>            
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer Section -->    
+    <footer role="contentinfo">
+        &copy; Copyright Brahmadut Ramkissoon 2016. All rights reserved.
+    </footer>
+
+    
+    <!-- JavaScript Section -->
+    <script src="Scripts/calc-prototype.js"></script>
+    
+</body>
+</html>
