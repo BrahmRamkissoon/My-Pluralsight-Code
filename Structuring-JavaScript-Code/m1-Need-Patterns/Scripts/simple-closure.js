@@ -1,11 +1,11 @@
 // Show persistence of data in closures
 window.onload = function (){
     var output = document.getElementById('Output');
-    var closure = myClosure();
-    output.innerHTML = closure();
+    var closure = myClosure2();
+    output.innerHTML = closure.foo();
     
     window.setTimeout(function(){
-        output.innerHTML += '<br/>' + closure();
+        output.innerHTML += '<br/>' + closure.foo();
     }, 1000);
     
 }
@@ -20,5 +20,17 @@ function myClosure(){
     var date = new Date();
     return function(){
         return date.getMilliseconds();
+    };
+}
+
+// Class
+var myClosure2 = function (){
+    var date = new Date(),
+        myNestedFunc = function(){
+        return date.getMilliseconds();
+    }
+    // object literal
+    return {
+        foo: myNestedFunc
     };
 }
