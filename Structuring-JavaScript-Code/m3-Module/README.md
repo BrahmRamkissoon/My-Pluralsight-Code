@@ -1,0 +1,8 @@
+# Pluralsight: Structuring JavaScript Code
+[Course Info](https://www.pluralsight.com/courses/structuring-javascript) | Author: [Dan Wahlin](https://www.pluralsight.com/authors/dan-wahlin)
+
+## Course Description
+With the rise of HTML5 more and more JavaScript code is being included in applications to leverage canvas, geolocation, local storage, and other key APIs. This course walks through several patterns that can be used to structure code in a way that’s more re-useable, more maintainable, and less susceptible to naming collisions. Learn about patterns such as the Revealing Module and Revealing Prototype patterns and see how they can be used to convert function spaghetti code into structured code that encapsulates variables and functions.
+
+### Module 3 - Module Pattern:
+Another pattern you can use to structure your JavaScript code is called the module pattern. This is a pattern that Douglas Crockford came up with initially, and it's been very popular. It provides some very distinct differences between other patterns, such as the prototype pattern that was covered earlier in this course. So what I'll do is walk you through what is the module pattern and what are some of the pros and cons it has, and I'll specifically compare it to the prototype pattern, because there are some very distinct differences between those two. We'll talk about the module pattern structure, what's the basic code you need to have to get started, and then how do you fill in the blanks from there. 
