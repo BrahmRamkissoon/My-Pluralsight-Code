@@ -4,13 +4,13 @@
 ## Course Description
 In this course we will examine common bugs that are accidentally introduced when developing with JavaScript. For each bug we will expose the problem, explain what is going on, and then exterminate the issue with a solution. The goal is to help prevent you from making these mistakes and in the process gain a better understanding of how JavaScript works.
 
-### Module 1 - Statement Bugs:
-We'll focus on bugs that relate to statements.
+### Module 2 - Expression and Operator bugs:
+In this module we're going to look at some common bugs when dealing with expressions and operators in JavaScript. Along the way we'll uncover some foundational concepts in JavaScript to help you become a more efficient front-end developer.
 
-* Missing Mark
-* Fresh Function
-* Tumble Through
-* Strictly Stray
-* Parsing Parenthesis
-* Evil Eval
-* Fickle Figure
+* Crude Compilation
+* Mistaken Mold
+* Twisted Truth
+* Crafty Covert
+* Problematic Pause
+* Ignored Invention
+* Inaccurate Increase
